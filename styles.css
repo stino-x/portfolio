@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-family-body: 'Poppins', sans-serif;
+  --ff-headings: 'Playfair Display', serif;
+  --font-size-h1: clamp(1.5rem, -0.25rem + 20vw, 6rem);
+  --gap-header: clamp(12rem, 100vw, 25rem);
+  --button-SC-width: min(90vw, 700px);
+  --adaptive-sizing-section-2: min(100vw, 600px);
+  --fs-body: clamp(1rem, 0.3846153846153846rem + 3.076923076923077vw, 1.5rem);
+}
+
+header {
+  display: flex;
+  gap: 12rem;
+  margin-bottom: 2rem;
+}
+
+/* add media query to increase gap later */
+
+.section-1 {
+  position: relative;
+}
+
+h1 {
+  font-family: var(--ff-headings);
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--font-size-h1);
+  line-height: 100%;
+  color: #1a2236;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  left: 16px;
+  top: 224px;
+  font-family: var(--font-family-body);
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--fs-body);
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+  margin-left: 1rem;
+  margin-bottom: 2.5rem;
+  max-width: 180%;
+}
+
+.image-1 {
+  width: var(--adaptive-sizing-section-2);
+  margin-bottom: 3rem;
+}
+
+.Start-collab {
+  width: var(--button-SC-width);
+  height: 50px;
+  background: #1a2236;
+  color: white;
+  border: white;
+  font-family: var(--font-family-body);
+  margin-left: 1rem;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.Start-collab:hover {
+  background-color: white;
+  color: black;
+  border-width: 0.8rem;
+  border-color: black;
+  border-style: none;
+}
