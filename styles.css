@@ -16,7 +16,7 @@
 
 header {
   display: flex;
-  gap: 12rem;
+  gap: 60vw;
   margin-bottom: 2rem;
 }
 
@@ -24,6 +24,10 @@ header {
 
 .section-1 {
   position: relative;
+}
+
+.top-left {
+  width: min(70vw, 200px);
 }
 
 h1 {
@@ -44,7 +48,6 @@ p {
   font-style: normal;
   font-weight: 400;
   font-size: var(--fs-body);
-  line-height: 21px;
   letter-spacing: -0.01em;
   color: #1a2236;
   margin-left: 1rem;
@@ -62,7 +65,7 @@ p {
   height: 50px;
   background: #1a2236;
   color: white;
-  border: white;
+  border-color: transparent;
   font-family: var(--font-family-body);
   margin-left: 1rem;
   position: relative;
@@ -72,7 +75,6 @@ p {
 .Start-collab:hover {
   background-color: white;
   color: black;
-  border-width: 0.8rem;
+  border-width: 0.5px;
   border-color: black;
-  border-style: none;
 }
