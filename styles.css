@@ -25,6 +25,11 @@
   --fs-see-this-project: clamp(1rem, -2rem + 12.8vw, 2rem);
   --color-boxes-title-font: 'Poppins', sans-serif;
   --color-boes-list-font: 'Poppins', sans-serif;
+  --color-boxes-size: min(90vw, 700px);
+}
+
+body {
+  overflow-x: hidden;
 }
 
 header {
@@ -65,7 +70,8 @@ p {
 }
 
 .image-1 {
-  width: var(--adaptive-sizing-section-2);
+  width: 100vw;
+  max-width: 800px;
   margin-bottom: 3rem;
 }
 
@@ -103,6 +109,7 @@ p {
 
 .section-2 {
   margin-bottom: 3rem;
+  display: grid;
 }
 
 h2 {
@@ -179,7 +186,7 @@ h2 {
 
 .blue {
   margin-right: 1rem;
-  width: var(--languages-width);
+  width: var(--color-boxes-size);
   height: 289px;
   left: 16px;
   top: 3180px;
@@ -193,7 +200,7 @@ h2 {
 
 .red {
   margin-right: 1rem;
-  width: var(--languages-width);
+  width: var(--color-boxes-size);
   height: 289px;
   left: 16px;
   top: 3485px;
@@ -208,7 +215,7 @@ h2 {
 .yellow {
   margin-right: 1rem;
   height: 289px;
-  width: var(--languages-width);
+  width: var(--color-boxes-size);
   left: 15px;
   top: 3790px;
   background: #febf52;
