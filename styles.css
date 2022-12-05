@@ -34,7 +34,7 @@ body {
 
 header {
   display: flex;
-  gap: 55vw;
+  gap: 65vw;
   margin-bottom: 2rem;
 }
 
@@ -70,7 +70,7 @@ p {
 }
 
 .image-1 {
-  width: 100vw;
+  width: 96.5vw;
   max-width: 800px;
   margin-bottom: 3rem;
 }
@@ -279,6 +279,23 @@ input[type=text] {
 }
 
 input[type=text]::placeholder {
+  font-family: var(--font-family-body);
+  position: relative;
+  left: 0.8rem;
+  bottom: 0.5rem;
+}
+
+input[type=email] {
+  width: min(90vw, 700px);
+  margin-left: 1rem;
+  height: 52px;
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  position: relative;
+}
+
+input[type=email]::placeholder {
   font-family: var(--font-family-body);
   position: relative;
   left: 0.8rem;
